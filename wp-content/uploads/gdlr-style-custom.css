@@ -65,8 +65,8 @@ body.single-post .infinite-sidebar-style-none, body.blog .infinite-sidebar-style
 .infinite-footer-wrapper{ padding-bottom: 50px; } 
 .infinite-copyright-container{ padding-top: 38px; } 
 .infinite-copyright-container{ padding-bottom: 38px; } 
-.infinite-body h1, .infinite-body h2, .infinite-body h3, .infinite-body h4, .infinite-body h5, .infinite-body h6, .infinite-body .infinite-title-font,.infinite-body .gdlr-core-title-font{ font-family: "Raleway", sans-serif; }.woocommerce-breadcrumb, .woocommerce span.onsale, .single-product.woocommerce div.product p.price .woocommerce-Price-amount, .single-product.woocommerce #review_form #respond label{ font-family: "Raleway", sans-serif; } 
-.infinite-navigation .sf-menu > li > a, .infinite-navigation .sf-vertical > li > a, .infinite-navigation-font{ font-family: "Raleway", sans-serif; } 
+.infinite-body h1, .infinite-body h2, .infinite-body h3, .infinite-body h4, .infinite-body h5, .infinite-body h6, .infinite-body .infinite-title-font,.infinite-body .gdlr-core-title-font{ font-family: Gilroy-ExtraBold; }.woocommerce-breadcrumb, .woocommerce span.onsale, .single-product.woocommerce div.product p.price .woocommerce-Price-amount, .single-product.woocommerce #review_form #respond label{ font-family: Gilroy-ExtraBold; } 
+.infinite-navigation .sf-menu > li > a, .infinite-navigation .sf-vertical > li > a, .infinite-navigation-font{ font-family: Gilroy-ExtraBold; } 
 .infinite-body, .infinite-body .gdlr-core-content-font, .infinite-body input, .infinite-body textarea, .infinite-body button, .infinite-body select, .infinite-body .infinite-content-font, .gdlr-core-audio .mejs-container *{ font-family: "Source Sans Pro", sans-serif; } 
 .infinite-body .gdlr-core-info-font, .infinite-body .infinite-info-font{ font-family: Georgia, serif; } 
 .infinite-body .gdlr-core-blog-info-font, .infinite-body .infinite-blog-info-font{ font-family: "Open Sans", sans-serif; } 
@@ -362,8 +362,16 @@ background: #65AFFF;
 }
 
 .infinite-navigation .sf-menu > li > a {
-    padding-bottom: 2px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
+
+.infinite-main-menu {
+margin-right: 55px;
+}
+
 
 /* ________mobile nav media queries _________ */
 
@@ -464,5 +472,13 @@ background-color: #180a3f;
 .gdlr-core-page-builder-body [data-skin="Blue"] .gdlr-core-button.gdlr-core-button-gradient-v{ background: -webkit-linear-gradient(to right, #232323, #232323); background: -o-linear-gradient(to right, #232323, #232323);  background: -moz-linear-gradient(to right, #232323, #232323); background: linear-gradient(to right, #232323, #232323); } 
 .gdlr-core-page-builder-body [data-skin="Purple Button"] .gdlr-core-button.gdlr-core-button-gradient{ background: -webkit-linear-gradient(#4f66bd, #3250bc); background: -o-linear-gradient(#4f66bd, #3250bc);  background: -moz-linear-gradient(#4f66bd, #3250bc); background: linear-gradient(#4f66bd, #3250bc); } 
 .gdlr-core-page-builder-body [data-skin="Purple Button"] .gdlr-core-button.gdlr-core-button-gradient-v{ background: -webkit-linear-gradient(to right, #4f66bd, #3250bc); background: -o-linear-gradient(to right, #4f66bd, #3250bc);  background: -moz-linear-gradient(to right, #4f66bd, #3250bc); background: linear-gradient(to right, #4f66bd, #3250bc); } 
+@font-face {
+font-family: "Gilroy-ExtraBold";
+src: url("http://localhost:8888/wordpress%202/wp-content/uploads/2019/01/Gilroy-ExtraBold.eot");
+src: url("http://localhost:8888/wordpress%202/wp-content/uploads/2019/01/Gilroy-ExtraBold.eot?#iefix") format("embedded-opentype"), 
+url("http://localhost:8888/wordpress%202/wp-content/uploads/2019/01/Gilroy-ExtraBold.ttf") format("truetype");
+font-weight: normal;
+font-style: normal;
+}
 
 .infinite-item-mgb, .gdlr-core-item-mgb{ margin-bottom: 30px; }
