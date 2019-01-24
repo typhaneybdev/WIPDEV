@@ -345,33 +345,40 @@ table tr:nth-child(even){ color: #949494; }
 /* ________nav buttons_________ */
 
 .community-nav-btn {
-padding: 0 10px 0 10px;
 background: #FC47B3;
 margin-right: 10px;
+
 }
 
 .mobility-nav-btn {
-padding: 0 10px 0 10px;
 background: #9F55FF;
 margin-right: 10px;
 }
 
 .advocacy-nav-btn {
-padding: 0 10px 0 10px;
 background: #65AFFF;
 }
 
 .infinite-navigation .sf-menu > li > a {
-    padding-bottom: 5px;
-    padding-top: 5px;
+    padding-bottom: 7px;
+    padding-top: 7px;
     padding-left: 15px;
     padding-right: 15px;
 }
 
 .infinite-main-menu {
-margin-right: 55px;
+margin-right: 35px;
+margin-top: 18px;
 }
 
+.infinite-navigation .sf-menu > li:first-child {
+    padding-left: 20px;
+}
+
+.infinite-navigation .sf-menu > li:nth-child(3) {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 /* ________mobile nav media queries _________ */
 
