@@ -550,6 +550,19 @@ font-weight: normal;
 
 .subscribe-one {
 height: 220px;
+}
+
+/******how to engage button*****/
+
+
+.action-btn {
+height: 44px;
+width: 155px;
+color: #3A2C8C;
+font-size: 18px;
+border: 2.2px solid #3A2C8C;
+background-color: transparent;
+font-weight: bold;
 } 
 @media only screen and (max-width: 767px){ .gdlr-core-call-to-action-item .gdlr-core-call-to-action-item-title {
       font-size: 42px;
