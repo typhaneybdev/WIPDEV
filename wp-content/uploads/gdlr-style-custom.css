@@ -521,11 +521,22 @@ font-family:  Sarala-Bold;
 }
 
 /*_________newsletter subscribe home _______*/
+/*_________ TODO: MEDIA QUERIES _______*/
+
+div.wpcf7 {
+    margin-left: 85px;
+}
+
+.wpcf7 p {
+display: inline-block;
+}
+
 
 .wpcf7 input {
     background: none;
     height: 60px;
     width: 350px;
+    margin-bottom: -43.1px;
 }
 
 
@@ -533,13 +544,14 @@ font-family:  Sarala-Bold;
     height: 60px;
     width: 200px;
     background: white;
+    margin-top: 80px;
 }
 
 .infinite-body input[type="submit"]{
 color: #3A2C8C;
 font-size: 16px;
 font-family: "Open Sans", sans-serif;
-font-weight: normal;
+font-weight: 700;
 }
 
 
@@ -549,8 +561,9 @@ font-weight: normal;
 }
 
 .subscribe-one {
-height: 220px;
+    height: 220px;
 }
+
 
 /******how to engage button*****/
 
@@ -564,7 +577,9 @@ border: 2.2px solid #3A2C8C;
 background-color: transparent;
 font-weight: bold;
 } 
-@media only screen and (max-width: 767px){ .gdlr-core-call-to-action-item .gdlr-core-call-to-action-item-title {
+@media only screen and (max-width: 767px){ /* ________ hero wrapper content _________ */
+
+.gdlr-core-call-to-action-item .gdlr-core-call-to-action-item-title {
       font-size: 42px;
 } } 
 .gdlr-core-page-builder-body [data-skin="Dark"] h1, .gdlr-core-page-builder-body [data-skin="Dark"] h2, .gdlr-core-page-builder-body [data-skin="Dark"] h3, .gdlr-core-page-builder-body [data-skin="Dark"] h4, .gdlr-core-page-builder-body [data-skin="Dark"] h5, .gdlr-core-page-builder-body [data-skin="Dark"] h6, .gdlr-core-page-builder-body [data-skin="Dark"] .gdlr-core-skin-title, .gdlr-core-page-builder-body [data-skin="Dark"] .gdlr-core-skin-title a{ color: #ffffff }
