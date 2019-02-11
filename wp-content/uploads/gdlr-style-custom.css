@@ -565,6 +565,8 @@ font-weight: 700;
 }
 
 
+
+
 /******how to engage button*****/
 
 
@@ -576,6 +578,15 @@ font-size: 18px;
 border: 2.2px solid #3A2C8C;
 background-color: transparent;
 font-weight: bold;
+}
+
+/*********Community Section Home**************/
+/****TODO: MEDIA QUERIES, STYLE IMAGE SIZE******/
+
+
+div.homeLearnBtn {
+height: 44px;
+width: 188px;
 } 
 @media only screen and (max-width: 767px){ /* ________ hero wrapper content _________ */
 
